@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",             // Generate CommonJS code
+      "moduleResolution": "node",       // Use Node.js resolution strategy
+      "baseUrl": "src",                 // Base path for imports
+      "outDir": "dist",                 // Output directory for compiled JavaScript
+      "sourceMap": true,                // Enable source maps
+      "noImplicitAny": true,            // Disallow implicit "any" types
+      "strict": true,                   // Enable strict type-checking
+      "esModuleInterop": true,          // Allow ESModule/CommonJS interop
+      "skipLibCheck": true              // Skip type checking for libraries
+    },
+    "include": ["src/**/*"]
+  }
+  
